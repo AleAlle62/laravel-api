@@ -12,15 +12,15 @@ class TagSeeder extends Seeder
      */
     public function run()
     {
-        $tags = [
-            'php', 'Laravel 7', 'VueJs', 'Cucina moderna', 'Piatti tipici', 'Roma', 'Venezia', 'Emilia Romagna', 'Acqua minerale', 'Valle d\'Aosta',
-        ];
+        // $tags = [
+        //     'php', 'Laravel 7', 'VueJs', 'Cucina moderna', 'Piatti tipici', 'Roma', 'Venezia', 'Emilia Romagna', 'Acqua minerale', 'Valle d\'Aosta',
+        // ];
 
-        foreach ($tags as $tag) {
-            Tag::create([
-                'slug'  => Tag::getSlug($tag),
-                'name'  => $tag,
-            ]);
-        }
+        // foreach ($tags as $tag) {
+        //     Tag::create([
+        //         'slug'  => Tag::getSlug($tag),
+        //         'name'  => $tag,
+        //     ]);
+        // }
     }
 }

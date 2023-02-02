@@ -5040,15 +5040,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'App',
@@ -11042,7 +11033,7 @@ var render = function () {
   var _c = _vm._self._c || _h
   return _c("div", [
     _c("div", { staticClass: "container" }, [
-      _c("h1", [_vm._v("Frontoffice in Vue")]),
+      _c("h1", [_vm._v("VUE FUNZIONA !!!")]),
       _vm._v(" "),
       _c(
         "div",
@@ -11050,14 +11041,6 @@ var render = function () {
         _vm._l(_vm.arrPosts, function (post) {
           return _c("div", { key: post.id, staticClass: "col-sm-6 col-md-4" }, [
             _c("div", { staticClass: "card h-100" }, [
-              _c("img", {
-                staticClass: "card-img-top",
-                attrs: {
-                  src: "/storage/" + post.uploaded_img,
-                  alt: post.title,
-                },
-              }),
-              _vm._v(" "),
               _c("div", { staticClass: "card-body d-flex flex-column" }, [
                 _c("h5", { staticClass: "card-title" }, [
                   _vm._v(_vm._s(post.title)),
